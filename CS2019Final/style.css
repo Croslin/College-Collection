@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    background-color: teal
+}
+
+#HappinessColor{
+    color:green;
+}
+#SuicidesColor{
+    color:red;
+}
+#LifeColor{
+    color:pink;
+}
+#GenerosityColor{
+    color:blue
+}
+body{
+    background-color: coral;
+}
