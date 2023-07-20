@@ -1,0 +1,39 @@
+Patrons
+  Data Table
+  Records information on each library patron. Important to record for sending out information, tracking reservations and loans of individual patrons, and to record a patron's history.
+MediaReservations
+  Linking Table
+  Connects patrons to the media that they currently have checked out or placed a hold on. Important for establishing loan, renewal, and hold systems.
+RoomReservations
+  Linking Table
+  Connects patrons to the rooms that they have placed reservations on. Important to prevent multiple groups from using the same rooms and to keep a record of past reservations. 
+Media
+  Data Table
+  Records general information about each piece of media that the library holds. IMportant for recording the inventory of the library.
+Books
+  Subset Table
+  Provides media information that are specific to the books contained in the Media table.
+Movies
+  Subset Table
+  Provides media information that are specific to the movies contained in the Media table.
+TVShows
+  Subset Table
+  Provides media information that are specific to the TV shows contained in the Media table.
+Audiobooks
+  Subset Table
+  Provides media information that are specific to the audiobooks contained in the Media table.
+GraphicNovels
+  Subset Table
+  Provides media information that are specific to the graphic novels contained in the Media table.
+Rooms
+  Data Table
+  Records information about each room or space available for rental at the library. Necessary information to provide to patrons.
+Clubs
+  Data Table
+  Records information on clubs hosted by the library. Important for associating media, rooms, and patrons with each club.
+ClubMembers
+  Linking Table
+  Connects patrons to the clubs they participate in. Important for contacting the club and for choosing new media for the club to engage with.
+ClubMedia
+  Linking Table
+  Connects clubs to the media that they select to use or discuss. Important for promotion and making stock decisions.

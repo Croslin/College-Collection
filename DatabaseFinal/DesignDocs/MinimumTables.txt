@@ -1,0 +1,25 @@
+Patrons
+  Fields: PatronID, Name, Address, Email, PhoneNumber, Balance
+  Primary Key: PatronID
+Media
+  Fields: MediaID, Production Year, Title, Series, Description, Genre, Status
+  Primary Key: MediaID
+Books
+  Fields: MediaID, ISBN, Author, Format, LengthInPages, Publisher
+  Primary Key: MediaID
+Movies
+  Fields: MediaID, Director, Studio, Format, MovieLengthInMinutes
+  Primary Key: MediaID
+MediaReservations
+  Fields: PatronID, MediaID, DueDate, IsRenewed, CheckoutDate, Fee, ReturnDate
+  Primary Key: PatronID and MediaID
+Clubs
+  Fields: ClubName, ClubDescription
+  Primary Key: ClubName
+ClubMembers
+  Fields: ClubName, PatronID
+  Primary Key: ClubName and PatronID
+ClubMedia
+  Fields: ClubName, MediaID, ClubMediaDesignationDateBegin, ClubMediaDesignationDateEnd
+  Primary Key: ClubName and MediaID
+ 

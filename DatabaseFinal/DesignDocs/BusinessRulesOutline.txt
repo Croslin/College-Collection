@@ -1,0 +1,27 @@
+A media can only be reserved to one patron at a time
+    Except for dibs after returns
+
+
+Based off of NYPL
+
+Assessing late fees
+    How much money is a late fee? Depends on media? Depends on when returned?
+$1 per day late
+
+Number of reservations?
+    Max # of media out at one time?
+50, up to 10 movies
+
+Number of renewals?
+    Per media. Varies between books/movies?
+Cannot be renewed if another patron has a hold
+2 times
+
+Unique emails/phone numbers?
+unique emails
+unique phone numbers
+
+When are things due?
+    Per media. Varies between books/movies?
+Books: Due in 3 weeks
+Movies: Due in 1 week

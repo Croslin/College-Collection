@@ -1,0 +1,40 @@
+Patrons
+  Fields: PatronID, Name, Address, Email, PhoneNumber, Balance
+  Primary Key: PatronID
+MediaReservations
+  Fields: PatronID, MediaID, DueDate, IsRenewed, CheckoutDate, Fee, ReturnDate
+  Primary Key: PatronID and MediaID
+RoomReservations
+  Fields: RoomName, PatronID, ReservationTime, ReservationPurpose
+  Primary Key: RoomName, PatronID, ReservationTime
+Media
+  Fields: MediaID, Production Year, Title, Series, Description, Genre, Status
+  Primary Key: MediaID
+Books
+  Fields: MediaID, ISBN, Author, Format, LengthInPages, Publisher
+  Primary Key: MediaID
+Movies
+  Fields: MediaID, Director, Studio, Format, MovieLengthInMinutes
+  Primary Key: MediaID
+TVShows
+  Fields: MediaID, SeasonNumber, NumberOfEpisodes
+  Primary Key: MediaID
+Audiobooks
+  Fields: MediaID, Narrator, AudiobookLengthInMinutes
+  Primary Key: MediaID
+GraphicNovels
+  Fields: MediaID, Artist
+  Primary Key: MediaID
+Rooms
+  Fields: RoomName, WidthDimensionInFeet, LengthDimensionInFeet, Occupancy
+  Primary Key: RoomName
+Clubs
+  Fields: ClubName, ClubDescription
+  Primary Key: ClubName
+ClubMembers
+  Fields: ClubName, PatronID
+  Primary Key: ClubName and PatronID
+ClubMedia
+  Fields: ClubName, MediaID, ClubMediaDesignationDateBegin, ClubMediaDesignationDateEnd
+  Primary Key: ClubName and MediaID
+ 

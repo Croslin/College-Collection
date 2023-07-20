@@ -1,0 +1,19 @@
+The purpose of the Therpston County Public Library database is to record and provide information about the media offered by the library, as well as facilitating and tracking the usage of library resources by patrons.
+
+We need to display information about media at the library.
+We need to track connections between print and multimedia.
+We need to keep track of patron rentals and reservations.
+We need to keep track of complete patron information.
+
+Thanks Andrew, Croslin. The mission is a good, general statement, and is sufficiently high 
+level. The objective statements are a little too focused on the function of the database 
+as a collection of data; it would be better to state directly, the kinds of things you 
+want the database to enable you to do. 
+
+For example, instead of "We need to track connections between print and multimedia", you 
+might say "We want to show patrons both print and multi-media versions of collection items 
+whenever possible."
+
+Being able to easily display books and movies telling the same story on the same web page 
+has implications for the database, but you'll get into those later. For now, focus on the 
+end goal.

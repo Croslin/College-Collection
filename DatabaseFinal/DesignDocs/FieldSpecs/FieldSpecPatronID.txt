@@ -1,0 +1,117 @@
+FIELD SPECIFICATIONS
+
+GENERAL ELEMENTS
+
+Field Name:           _ PatronID
+
+Specification Type:
+  Unique:  _ /
+  Generic: _ 
+  Replica: _ 
+Parent Table:         _ Patrons
+Label:                _ PID
+Source Specification: _ 
+Shared By:            _ MediaReservations, RoomReservations, ClubMembers
+Aliases:              _ Customer ID
+Description:          _ The unique ID that each customer has in order for them to be identified and kept track of.
+
+
+PHYSICAL ELEMENTS
+
+Data Type:            _ Character
+Length:               _ 32
+Decimal Places:       _ 0
+Input Mask:           _ 
+Display Format:       _ 
+Character Support:
+  Letters (A-Z):      _ /
+  Numbers (0-9):      _ /
+  Keyboard (.,/$#%):  _ 
+  Special (©®™Σπ):    _ 
+
+
+LOGICAL ELEMENTS
+
+Key Type:      Non:        _ 
+               Primary:    _ /
+               Foreign:    _ 
+               Alternate:  _ 
+
+Key Structure: Simple:     _ /
+               Composite:  _ 
+
+Uniqueness:    Non-unique: _ 
+               Unique:     _ 
+
+Null Support:  Nulls OK:   _ 
+               No nulls:   _ /
+
+Values Entered By: User:   _ 
+                   System: _ /
+
+Required Value:    No:     _ 
+                   Yes:    _ /
+
+Default Value:     _ 0
+
+Range of Values:   _ 10000000
+
+Edit Rule:
+  Enter now, edits allowed:       _ 
+  Enter now, edits not allowed:   _ 
+  Enter later, edits allowed:     _ 
+  Enter later, edits not allowed: _ 
+  Not determined at this time:    _ /
+
+Comparisons Allowed:
+  Same Field:   _ 
+                ALL  _ 
+                =    _ 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+  Other Fields: _
+                ALL  _ 
+                =    _ 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+  Value Expr.:  _ 
+                ALL  _ 
+                =    _ 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+Operations Allowed:
+  Same Field:   _ 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    _ 
+
+  Other Fields: _ 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    _ 
+
+  Value Expr.:  _ 
+                ALL  _ 
+                +    _ 
+                -    _ 
+                *    _ 
+                /    _ 
+
+NOTES:
+

@@ -1,0 +1,64 @@
+FIELD SPECIFICATIONS
+
+GENERAL ELEMENTS
+
+Field Name:           _ Fee
+Label:                _ 
+Parent Table:         _ Rentals
+Aliases:              _ Late fee
+Specification Type:
+  Unique:  _ /
+  Generic: _ 
+  Replica: _ 
+Source Specification: _ 
+Shared By:            _ 
+Description:          _ The money owed when the item is turned in after the return date.
+
+
+PHYSICAL ELEMENTS
+
+Data Type:            _ Numeric
+Length:               _ 16
+Decimal Places:       _ 2
+Display Format:       _ 123.45
+Character Support:
+  Letters (A-Z):      _ 
+  Numbers (0-9):      _ /
+  Keyboard (.,/$#%):  _ /
+  Special (©®™Σπ):    _ 
+
+
+LOGICAL ELEMENTS
+
+Key Type:      Non:        _ 
+               Primary:    _ 
+               Foreign:    _ 
+               Alternate:  _ 
+
+Key Structure: Simple:     _ 
+               Composite:  _ 
+
+Uniqueness:    Non-unique: _ 
+               Unique:     _ 
+
+Null Support:  Nulls OK:   _ 
+               No nulls:   _ /
+
+Values Entered By: User:   _ 
+                   System: _ /
+
+Required Value:    No:     _ 
+                   Yes:    _ /
+
+Default Value:     _ 4.00
+
+Range of Values:   _ 
+
+Edit Rule:
+  Enter now, edits allowed:       _ /
+  Enter now, edits not allowed:   _ 
+  Enter later, edits allowed:     _ 
+  Enter later, edits not allowed: _ 
+  Not determined at this time:    _ 
+
+NOTES: _
