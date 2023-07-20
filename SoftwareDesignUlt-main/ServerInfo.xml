@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.5" class="java.beans.XMLDecoder">
+ <object class="Sprint1.Database" id="Database0"/>
+<void class="Sprint1.Group" id="Field0" method="getField">
+ <string>UserIDs</string>
+ <void id="ArrayList0" method="get">
+  <object class="Sprint1.Group" id="Group0"/>
+  <void method="add">
+   <int>2</int>
+  </void>
+  <void method="add">
+   <int>0</int>
+  </void>
+  <void method="add">
+   <void class="Sprint1.User" id="User0">
+    <void property="password">
+     <string>BCA!</string>
+    </void>
+    <void property="status">
+     <string>Concerned</string>
+    </void>
+    <void property="username">
+     <string>CybilB</string>
+    </void>
+    <void id="Integer0" property="userID"/>
+   </void>
+   <object idref="Integer0"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList0"/>
+<void class="Sprint1.Group" id="Field1" method="getField">
+ <string>Admins</string>
+ <void id="ArrayList1" method="get">
+  <object idref="Group0"/>
+  <void method="add">
+   <object idref="Integer0"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList1"/>
+<void class="Sprint1.User" id="User1">
+ <void property="status">
+  <string>Annoyed</string>
+ </void>
+ <void property="userID">
+  <int>2</int>
+ </void>
+ <void property="username">
+  <string>MichaelK</string>
+ </void>
+ <void property="password">
+  <string>IGOOH</string>
+ </void>
+</void>
+<void class="Sprint1.User" id="User2">
+ <void property="status">
+  <string>OK</string>
+ </void>
+ <void property="userID">
+  <int>0</int>
+ </void>
+ <void property="username">
+  <string>HarryM</string>
+ </void>
+ <void property="password">
+  <string>WIC?</string>
+ </void>
+</void>
+<void class="Sprint1.Database" id="Field2" method="getField">
+ <string>Members</string>
+ <void id="ArrayList2" method="get">
+  <object idref="Database0"/>
+  <void method="add">
+   <object idref="User0"/>
+  </void>
+  <void method="add">
+   <object idref="User1"/>
+  </void>
+  <void method="add">
+   <object idref="User2"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList2"/>
+<void class="Sprint1.Group" id="Field3" method="getField">
+ <string>Admins</string>
+ <void id="ArrayList3" method="get">
+  <object class="Sprint1.Group" id="Group1"/>
+  <void method="add">
+   <object idref="Integer0"/>
+  </void>
+  <void method="add">
+   <int>0</int>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList3"/>
+<void class="Sprint1.Group" id="Field4" method="getField">
+ <string>UserIDs</string>
+ <void id="ArrayList4" method="get">
+  <object idref="Group1"/>
+  <void method="add">
+   <object idref="Integer0"/>
+  </void>
+  <void method="add">
+   <int>0</int>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList4"/>
+<void class="Sprint1.Database" id="Field5" method="getField">
+ <string>Groups</string>
+ <void id="ArrayList5" method="get">
+  <object idref="Database0"/>
+  <void method="add">
+   <object idref="Group1"/>
+  </void>
+  <void method="add">
+   <object idref="Group0"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList5"/>
+</java>
