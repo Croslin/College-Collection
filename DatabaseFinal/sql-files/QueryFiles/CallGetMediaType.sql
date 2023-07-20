@@ -1,0 +1,1 @@
+SELECT get_media_type(?);
