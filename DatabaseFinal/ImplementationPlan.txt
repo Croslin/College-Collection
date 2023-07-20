@@ -1,0 +1,30 @@
+SQL Scripts for Tables (4 per table according to C.R.U.D.):
+  Patrons             Andrew
+  Media               Andrew
+  Books               Andrew
+  Movies              Andrew
+  MediaReservations   Andrew
+  Clubs               Croslin
+  ClubMembers         Croslin
+  ClubMedia           Croslin
+  SQL Main Setup      Croslin
+
+PHP pages
+  Week One:              
+  Librarian -- Manage the Catalog               Andrew
+  Librarian -- Manage Patron Information        Andrew
+  Patron    -- View the Catalog                 Croslin
+  Patron    -- Make Reservation (Checkout)      Croslin
+  Patron    -- Manage their Information         Croslin
+  
+  Week Two:
+  Login Page (Postponed)                        Andrew
+  Librarian -- Manage a Patron's Reservations   Andrew
+  Librarian -- Manage Clubs and Club Members    Andrew
+  Librarian -- Make Reservations for a Club     Andrew
+  Patron    -- View their Reservations          Croslin
+  Patron    -- Join a Club                      Croslin
+  Patron    -- View Club Information            Croslin
+ 
+Final Design Document
+  Andrew & Croslin split the work evenly
